@@ -1,0 +1,12 @@
+services:
+  www:
+    image: php:8.1.1-apache
+    volumes:
+      - "./:/var/www/html"
+    ports:
+      - "80:80"
+    environment:
+      oktaOrg: ${oktaOrg}
+      redirect_uri: ${redirect_uri}
+      client_id: ${client_id}
+      client_secret: ${client_secret}
