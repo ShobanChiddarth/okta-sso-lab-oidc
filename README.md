@@ -90,4 +90,4 @@ http://localhost
 
 ## Conclusion
 
-This lab has helped me learn setting up an App Integeration in Okta as well as making use of the OIDC protocol and helped me understand SSO deeper as I saw it in action.
+This lab helped me understand how to configure Okta as an Identity Provider, implement the OAuth 2.0 authorization code flow end-to-end, enforce application access policies, and manage the SSO session lifecycle seeing it all in action.
